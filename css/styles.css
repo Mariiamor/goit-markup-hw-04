@@ -291,6 +291,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     align-self: center;
     margin-bottom: 32px;
     padding-left: 0;
+    justify-content:flex-start;
 }
 .social-links .link{
     display: flex;
@@ -385,7 +386,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-family: inherit;
     padding: 100px 0;
     display: flex;
-    flex-direction: column;
+    justify-content:left;
+    flex-direction: row;
     align-items: flex-start;
 
 }
@@ -416,4 +418,22 @@ img{
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+}
+.social-media-title{
+    color: #F4F4FD;
+        text-align: left;
+        font-weight: inherit;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-weight: 500;
+        display: flex;
+        justify-content:left;
+        align-items:center;
+        padding-bottom: 16px;
+}
+.team-cont-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
 }
