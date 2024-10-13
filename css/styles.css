@@ -262,6 +262,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
+    padding-bottom: 8px;
 }
 
 .team-baner{
@@ -286,7 +287,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 24px;
     list-style: none;
     align-self: center;
-    margin-bottom: 32px;
     padding-left: 0;
     justify-content:center;
 }
